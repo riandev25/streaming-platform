@@ -13,7 +13,7 @@ const Page = ({
   params: { showType: string; showId: string; episodeId: string };
 }) => {
   const [playerWidth, setPlayerWidth] = useState('7rem');
-  const [defaultResolution, setDefaultResolution] = useState('1080p');
+  const [defaultResolution, setDefaultResolution] = useState('720p');
 
   // find current episode
   const currEpisode = findLastEpisodeNumber(params.episodeId);
